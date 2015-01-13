@@ -35,20 +35,27 @@ The minimal connections required for using this library are:
     Arduino GND                      - Maestro GND
 
 The example sketches try to use a hardware serial port on your Arduino if one is
-availabe. The one used is defined by SERIAL_PORT_HARDWARE_OPEN. The pins for
+available. The one used is defined by SERIAL_PORT_HARDWARE_OPEN. The pins for
 this serial port are different depending on which Arduino you are using.
 
 | Microcontroller Board | Hardware serial? | MCU RX pin | MCU TX pin |
 |-----------------------|------------------|------------|------------|
-| A-Star                |        Yes       |      0     |      1     |
+| A-Star 32U4           |        Yes       |      0     |      1     |
 | Arduino Leonardo      |        Yes       |      0     |      1     |
-| Arduino Uno           |        No        |     10     |     11     |
+| Arduino Micro         |        Yes       |      0     |      1     |
 | Arduino Mega 2560     |        Yes       |     19     |     18     |
+| Arduino Due           |        Yes       |     **     |     18     |
+| Arduino Uno           |        No        |     10     |     11     |
+| Arduino Yun           |        No        |     10     |     11     |
 
 If you would like to read information from the Maestro, like in the Input
 example sketch, you need to make one additional connection:
 
     Arduino RX (see table above) - Maestro TX
+
+** The Due's serial port is 3.3&nbsp;V, so it should not be connected to the
+Maestro's 5&nbsp;V TX line. This means the Due can only be used for sending
+commands to the Maestro, not receiving.
 
 ### Maestro configuration
 
