@@ -44,7 +44,7 @@ this serial port are different depending on which Arduino you are using.
 | Arduino Leonardo      |        Yes       |      0     |      1     |
 | Arduino Micro         |        Yes       |      0     |      1     |
 | Arduino Mega 2560     |        Yes       |     19     |     18     |
-| Arduino Due           |        Yes       |     **     |     18     |
+| Arduino Due           |        Yes       |     19**   |     18     |
 | Arduino Uno           |        No        |     10     |     11     |
 | Arduino Yun           |        No        |     10     |     11     |
 
@@ -53,9 +53,9 @@ example sketch, you need to make one additional connection:
 
     Arduino RX (see table above) - Maestro TX
 
-** The Due's serial port is 3.3&nbsp;V, so it should not be connected to the
-Maestro's 5&nbsp;V TX line. This means the Due can only be used for sending
-commands to the Maestro, not receiving.
+** The Due's serial port is 3.3&nbsp;V, so it should not be directly connected
+to the Maestro's 5&nbsp;V TX line. A voltage divider or level shifter can be
+used.
 
 ### Maestro configuration
 
