@@ -69,7 +69,7 @@ the Maestro Control Center and apply these settings:
 ### Software
 
 If you are using version 1.6.2 or later of the Arduino IDE, you can use the
-Library Manager install this library:
+Library Manager to install this library:
 
 1. Go to Sketch->Include Library->Manage Libraries...
 2. Search for "PololuMaestro".
