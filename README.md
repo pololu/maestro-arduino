@@ -14,7 +14,7 @@ Maestros using the Serial Protocol described in the
 
 ## Supported platforms
 
-This library is designed to work with the Arduino IDE versions 1.0.x and 1.5.x,
+This library is designed to work with the Arduino IDE versions later than 1.0.x
 and will probably not work with older versions.
 
 This library supports any Arduino-compatible board.
@@ -68,13 +68,20 @@ the Maestro Control Center and apply these settings:
 
 ### Software
 
-Download the
-[maestro-arduino library from GitHub](https://github.com/pololu/maestro-arduino),
-decompress it, and drag the "PololuMaestro" folder into the "libraries"
-subdirectory inside your Arduino sketchbook directory. You can view your
-sketchbook location by selecting File->Preferences in the Arduino environment.
-If there is not already a "libraries" folder in that location, you should create
-it yourself. After installing the library, restart the Arduino environment.
+If you are using version 1.6.2 or later of the Arduino IDE, you can use the
+Library Manager install this library:
+
+# Go to Sketch->Include Library->Manage Libraries...
+# Search for "PololuMaestro".
+# Click install.
+
+If this does not work, you can manually install the library:
+
+# Download the [maestro-arduino library from GitHub](https://github.com/pololu/maestro-arduino) zip file and decompress it.
+# Rename the folder "maestro-arduino-xxxx" to "PololuMaestro"
+# Drag the "PololuMaestro" folder into the "libraries" subdirectory inside your Arduino sketchbook directory. You can view your sketchbook location by selecting File->Preferences in the Arduino environment. If there is not already a "libraries" folder in that location, you should create it yourself.
+# After installing the library, restart the Arduino environment.
+
 Example code for using this library can be found in the File->Examples menu.
 
 ## Examples
