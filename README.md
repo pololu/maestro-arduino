@@ -71,16 +71,16 @@ the Maestro Control Center and apply these settings:
 If you are using version 1.6.2 or later of the Arduino IDE, you can use the
 Library Manager install this library:
 
-# Go to Sketch->Include Library->Manage Libraries...
-# Search for "PololuMaestro".
-# Click install.
+1. Go to Sketch->Include Library->Manage Libraries...
+2. Search for "PololuMaestro".
+3. Click install.
 
 If this does not work, you can manually install the library:
 
-# Download the [maestro-arduino library from GitHub](https://github.com/pololu/maestro-arduino) zip file and decompress it.
-# Rename the folder "maestro-arduino-xxxx" to "PololuMaestro"
-# Drag the "PololuMaestro" folder into the "libraries" subdirectory inside your Arduino sketchbook directory. You can view your sketchbook location by selecting File->Preferences in the Arduino environment. If there is not already a "libraries" folder in that location, you should create it yourself.
-# After installing the library, restart the Arduino environment.
+1. Download the [maestro-arduino library from GitHub](https://github.com/pololu/maestro-arduino) zip file and decompress it.
+2. Rename the folder "maestro-arduino-xxxx" to "PololuMaestro"
+3. Drag the "PololuMaestro" folder into the "libraries" subdirectory inside your Arduino sketchbook directory. You can view your sketchbook location by selecting File->Preferences in the Arduino environment. If there is not already a "libraries" folder in that location, you should create it yourself.
+4. After installing the library, restart the Arduino environment.
 
 Example code for using this library can be found in the File->Examples menu.
 
