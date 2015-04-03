@@ -14,7 +14,7 @@ Maestros using the Serial Protocol described in the
 
 ## Supported platforms
 
-This library is designed to work with the Arduino IDE versions later than 1.0.x
+This library is designed to work with the Arduino IDE versions 1.0.x or later
 and will probably not work with older versions.
 
 This library supports any Arduino-compatible board.
