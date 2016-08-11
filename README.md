@@ -69,7 +69,7 @@ the Maestro Control Center and apply these settings:
 ### Software
 
 If you are using version 1.6.2 or later of the
-[Arduino software (IDE)](http://www.arduino.cc/en/Main/Software), you can use
+[Arduino software (IDE)](https://www.arduino.cc/en/Main/Software), you can use
 the Library Manager to install this library:
 
 1. In the Arduino IDE, open the "Sketch" menu, select "Include Library", then
