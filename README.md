@@ -1,8 +1,11 @@
 # Pololu Maestro Servo Controller library for Arduino
 
-Version: 1.0.0<br/>
-Release date: 2015 Jan 12<br/>
-!https://travis-ci.org/pololu/maestro-arduino.svg?branch=master!:https://travis-ci.org/pololu/maestro-arduino
+Version: 1.0.0
+
+Release date: 2015 Jan 12
+
+[![Build Status](https://travis-ci.org/pololu/maestro-arduino.svg?branch=master)](https://travis-ci.org/pololu/maestro-arduino)
+
 [www.pololu.com](https://www.pololu.com/)
 
 ## Summary
