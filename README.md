@@ -2,7 +2,6 @@
 
 Version: 1.0.0<br>
 Release date: 2015 Jan 12<br>
-[![Build Status](https://travis-ci.org/pololu/maestro-arduino.svg?branch=master)](https://travis-ci.org/pololu/maestro-arduino)<br>
 [www.pololu.com](https://www.pololu.com/)
 
 ## Summary
