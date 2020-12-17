@@ -8,7 +8,7 @@ Release date: 2015 Jan 12<br>
 
 This is a library for the Arduino IDE that helps interface with a
 [Maestro Servo Controller](https://www.pololu.com/maestro). It communicates
-withMaestros using the Serial Protocol described in the
+with Maestros using the Serial Protocol described in the
 [Maestro Servo Controller User's Guide](https://www.pololu.com/docs/0J40)
 Section 5, "Serial Interface".
 
